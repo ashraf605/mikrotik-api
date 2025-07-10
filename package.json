@@ -1,0 +1,18 @@
+{
+  "name": "mikrotik-hotspot-api",
+  "version": "1.0.0",
+  "description": "خادم خلفي لجلب مستخدمي الهوت سبوت النشطين من المايكروتك",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-routeros": "^1.1.0"
+  }
+}
